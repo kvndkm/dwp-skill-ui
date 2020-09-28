@@ -4,10 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Instructions to run this project and access the UI
 ### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Run below command to start the client from the project home directory.
+> npm start 
+This command asks for the PORT that this app has to listen to on and starts the client UI on the given port. Make sure to give the unused PORT number.
+* Open UI @ http://localhost:<Given PORT from the above command>/
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
